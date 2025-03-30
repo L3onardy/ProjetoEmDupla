@@ -1,0 +1,63 @@
+/* estilização do corpo*/
+body{
+    background-color: rgb(8, 8, 22);
+    color: white;
+    background-image: url('https://usagif.com/wp-content/uploads/gif/outerspace-62.gif');
+    background-size: cover;
+    height: 100%;
+}
+/* estilização das img*/
+img{
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px green;
+}
+/* estilização do containergeral*/
+.containergeral{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 150px;
+}
+/* estilização das divs*/
+div{
+    text-align: center;
+}
+/* estilização dos buttons*/
+button{
+    font-size: 20px;
+    border-radius: 10px;
+    border: none;
+}
+/* estilização dos buttons*/
+button:hover{
+    background-color: green;
+    color: white;
+    transition: 1s;
+}
+/* Responsividade para Mobile*/
+@media(max-width:450px){
+    *{
+        margin: 0;
+
+    }
+    body{
+        background-color: rgb(8, 8, 22);
+        color: white;
+        background-image: url('https://usagif.com/wp-content/uploads/gif/outerspace-62.gif');
+        background-size: cover;
+        height: 100%;
+    }
+    .containergeral{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-top: 25px;
+    }
+    button{
+        margin-top: 5px;
+    }
+}
