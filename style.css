@@ -51,6 +51,7 @@ button:hover{
         color: white;
         background-image: url('https://usagif.com/wp-content/uploads/gif/outerspace-62.gif');
         background-size: cover;
+        background-position: center;
         height: 100%;
     }
     .containergeral{
